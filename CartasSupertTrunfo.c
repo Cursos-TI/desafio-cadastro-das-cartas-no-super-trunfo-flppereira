@@ -7,7 +7,7 @@ int main(){
 char estado1, estado2;
 char codigo_da_carta1[50], codigo_da_carta2[50];
 char nome_da_cidade1[50], nome_da_cidade2[50];
-int populacão1, populacão2;
+int populacao1, populacao2;
 float area_km1, area_km2;
 float pib1, pib2;
 int pontos_turisticos1, pontos_turisticos2;
@@ -16,6 +16,7 @@ int pontos_turisticos1, pontos_turisticos2;
 printf("Bem vindo ao Cadastro de Cartas do Jogo Super Trunfo!\n");
 
 // Cadastro de dados
+printf("---- CARTA 1 -----");
 printf("Digite a inicial do Estado (A-H): \n");
 scanf("%c", &estado1);
 
@@ -26,17 +27,50 @@ printf("Digite o nome da cidade: \n");
 scanf("%s", &nome_da_cidade1);
 
 printf("Digite a população da cidade \n");
-scanf("%d", &populacão1);
+scanf("%d", &populacao1);
 
-return 0;
+printf("Digite a area (em km²): \n");
+scanf("%f", &area_km1 );
+
+printf("Digite o PIB da cidade: \n";)
+scanf("%f", pib1);
+
+printf ("Digite o numero de pontos turisticos da cidade: \n");
+scanf("%d", pontos_turisticos1);
 
 
 
+printf("---- CARTA 2 -----");
+printf("Digite a inicial do Estado (A-H): \n");
+scanf("%c", &estado2);
 
+printf("Digite o código da carta(inicial do estado + 01-04)\n");
+scanf("%s", &codigo_da_carta2);
 
+printf("Digite o nome da cidade: \n");
+scanf("%s", &nome_da_cidade2);
 
+printf("Digite a população da cidade \n");
+scanf("%d", &populacao2);
 
+printf("Digite a area (em km²): \n");
+scanf("%f", &area_km2);
 
+printf("Digite o PIB da cidade: \n";)
+scanf("%f", pib2);
 
-
+printf ("Digite o numero de pontos turisticos da cidade: \n");
+scanf("%d", pontos_turisticos2);
 }
+
+
+
+
+
+
+
+
+
+
+
+
